@@ -1,3 +1,6 @@
+;;
+(server-start)
+
 ;; スタートアップ時のメッセージを抑制
 (setq inhibit-startup-message t)
 
