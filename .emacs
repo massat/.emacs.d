@@ -1,5 +1,5 @@
 
-(add-to-list 'load-path "~/.emacs.d/lib")
+(add-to-list 'load-path "~/.emacs.d/elisp")
 
 (require 'init-loader)
-(init-loader-load "~/.emacs.d/inits")
+(init-loader-load "~/.emacs.d/init")
