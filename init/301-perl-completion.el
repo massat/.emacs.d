@@ -2,7 +2,8 @@
 (add-hook 'cperl-mode-hook
           (lambda()
             (require 'perl-completion)
-            (perl-completion-mode t)))
+            (perl-completion-mode t)
+            ))
 
 (add-hook  'cperl-mode-hook
            (lambda ()
@@ -10,4 +11,6 @@
                (auto-complete-mode t)
                (make-variable-buffer-local 'ac-sources)
                (setq ac-sources
-                     '(ac-source-perl-completion)))))
+                     '(ac-source-perl-completion)))
+             ))
+
