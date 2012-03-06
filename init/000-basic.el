@@ -18,9 +18,6 @@
 (line-number-mode t)
 (column-number-mode t)
 
-;; C-hでバックスペース
-(global-set-key "\C-h" 'delete-backward-char)
-
 ;; 対応する括弧を光らせる
 (show-paren-mode 1)
 

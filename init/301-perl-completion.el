@@ -3,6 +3,7 @@
           (lambda()
             (require 'perl-completion)
             (perl-completion-mode t)
+            (local-set-key (kbd "C-c C-f") 'anything-project)
             ))
 
 (add-hook  'cperl-mode-hook
@@ -14,3 +15,9 @@
                      '(ac-source-perl-completion)))
              ))
 
+;; anything-project
+(ap:add-project
+ :name 'perl
+ :look-for '("Makefile.PL" "Build.PL") ; or
+ :include-regexp '("\\.pm$" "\\.t$" "\\.pl$" "\\.PL$") ;or
+ )
