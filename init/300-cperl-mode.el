@@ -6,6 +6,15 @@
 (add-to-list 'auto-mode-alist '("\\.t$"    . perl-mode))
 
 
+;; anything-project
+(ap:add-project
+ :name 'perl
+ :look-for '("Makefile.PL" "Build.PL") ; or
+ :include-regexp '("\\.pm$" "\\.t$" "\\.pl$" "\\.PL$") ;or
+ )
+
+
+
 ;; Align for cperl-mode
 ;; http://d.hatena.ne.jp/Tetsujin/20070614/1181757931
 ;; modified

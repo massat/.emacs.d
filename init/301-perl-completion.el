@@ -1,12 +1,5 @@
 ; perl-completion.el
 
-;; anything-project
-(ap:add-project
- :name 'perl
- :look-for '("Makefile.PL" "Build.PL") ; or
- :include-regexp '("\\.pm$" "\\.t$" "\\.pl$" "\\.PL$") ;or
- )
-
 ;; for cperl-mode
 (setq plcmp-use-keymap nil)
 (require 'perl-completion)

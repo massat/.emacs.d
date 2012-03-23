@@ -6,8 +6,8 @@
 
 (global-auto-complete-mode t)
 (ac-set-trigger-key "TAB")
-(setq ac-auto-start 1)
-(setq ac-auto-show-menu 0.2)
+(setq ac-auto-start nil)
+;(setq ac-auto-show-menu 0.2)
 
 ;; ac-company
 ;; INSTALL
