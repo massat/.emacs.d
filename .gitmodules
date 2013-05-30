@@ -1,3 +1,6 @@
 [submodule "elisp/yasnippet"]
 	path = elisp/yasnippet
 	url = https://github.com/capitaomorte/yasnippet
+[submodule "elisp/rinari"]
+	path = elisp/rinari
+	url = https://github.com/eschulte/rinari.git
