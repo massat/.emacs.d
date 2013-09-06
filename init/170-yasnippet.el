@@ -3,5 +3,5 @@
 
 (require 'yasnippet)
 
-(yas/load-directory "~/.emacs.d/assets/snippets")
+(yas/load-directory "~/.emacs.d/elisp/yasnippet/snippets")
 (yas/global-mode 1)
