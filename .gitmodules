@@ -7,3 +7,6 @@
 [submodule "elisp/rhtml"]
 	path = elisp/rhtml
 	url = https://github.com/eschulte/rhtml.git
+[submodule "elisp/yasnippet-rails"]
+	path = elisp/yasnippet-rails
+	url = git://github.com/eschulte/yasnippets-rails.git

@@ -12,3 +12,7 @@
 (require 'rhtml-mode)
 (add-hook 'rhtml-mode-hook
     (lambda () (rinari-launch)))
+
+; yasnippets-rails
+(add-to-list 'load-path "~/.emacs.d/elisp/yasnippet-rails")
+(yas/load-directory "~/.emacs.d/elisp/yasnippet-rails/rails-snippets")
