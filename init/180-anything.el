@@ -16,3 +16,4 @@
 
 ;; anything-complete
 (require 'anything-complete)
+(anything-read-string-mode 1)
